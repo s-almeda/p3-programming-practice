@@ -28,7 +28,7 @@ Here's the file directory of this repository.
 
 Edit the **HTML files** and the **CSS stylesheet** to make them your own! 
 
-Edit **App.js** if you want to add new pages, change how pages route to one another, if you've renamed your HTML files, etc. 
+Edit **App.js** if you want to change how pages route to one another, e.g. after adding new pages or renaming your HTML files. 
 ```
 starter-code
 │   README.md
@@ -36,12 +36,17 @@ starter-code
 │
 └───public 		// this where all of our content is stored
    │   index.html       // The initial view for our webpage
-   │   a.html 		
-   │   b.html 		// these are other pages our website links to
-   │   c.html
+   │   t1.html 		
+   │   t2.html 		// these are other pages our website links to
+   │   t3.html
+   │
+   └───t6        //some tasks have multiple subpages 
+   │  	│   a.html  
+   │  	│   b.html
+   │  	│   ...
    │
    └───css
-   │  	│   styles.css    // our CSS stylesheet!
+   │  	│   main.css    // stylesheet for custom CSS
    │   
    └───images	         //images used by our website are stored here
    	│   bunny.jpg 	
