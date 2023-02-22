@@ -40,11 +40,8 @@ app.get("/", function (req, res) {
 
 /** You can add your own URLS here **/
 
-app.get('/t1/1a', function (req, res) {
-    res.sendFile(publicPath + '/t1/1a.html');
-});
-app.get('/t1/1b', function (req, res) {
-    res.sendFile(publicPath + '/t1/1b.html');
+app.get('/t1', function (req, res) {
+    res.sendFile(publicPath + '/t1.html');
 });
 app.get('/t2', function (req, res) {
     res.sendFile(publicPath + '/t2.html');
@@ -58,30 +55,10 @@ app.get('/t4', function (req, res) {
 app.get('/t5', function (req, res) {
     res.sendFile(publicPath + '/t5.html');
 });
-
-
-// -- Task 6 Navigation -- //
 app.get('/t6', function (req, res) {
-    res.sendFile(publicPath + '/t6/index.html');
+    res.sendFile(publicPath + '/t6.html');
 });
-app.get('/t6/a', function (req, res) {
-    res.sendFile(publicPath + '/t6/a.html');
-});
-app.get('/t6/b', function (req, res) {
-    res.sendFile(publicPath + '/t6/b.html');
-});
-app.get('/t6/c', function (req, res) {
-    res.sendFile(publicPath + '/t6/c.html');
-});
-app.get('/t6/d', function (req, res) {
-    res.sendFile(publicPath + '/t6/d.html');
-});
-app.get('/t6/e', function (req, res) {
-    res.sendFile(publicPath + '/t6/e.html');
-});
-app.get('/t6/f', function (req, res) {
-    res.sendFile(publicPath + '/t6/f.html');
-});
+
 
 // -- Task 7 Navigation -- //
 app.get('/t7', function (req, res) {
@@ -106,7 +83,34 @@ app.get('/t7/f', function (req, res) {
     res.sendFile(publicPath + '/t7/f.html');
 });
 
-
+// -- Task 8 Navigation -- //
+app.get('/t8', function (req, res) {
+    res.sendFile(publicPath + '/t8/index.html');
+});
+app.get('/t8/a', function (req, res) {
+    res.sendFile(publicPath + '/t8/a.html');
+});
+app.get('/t8/b', function (req, res) {
+    res.sendFile(publicPath + '/t8/b.html');
+});
+app.get('/t8/c', function (req, res) {
+    res.sendFile(publicPath + '/t8/c.html');
+});
+app.get('/t8/d', function (req, res) {
+    res.sendFile(publicPath + '/t8/d.html');
+});
+app.get('/t8/e', function (req, res) {
+    res.sendFile(publicPath + '/t8/e.html');
+});
+app.get('/t8/f', function (req, res) {
+    res.sendFile(publicPath + '/t8/f.html');
+});
+app.get('/t8/g', function (req, res) {
+    res.sendFile(publicPath + '/t8/g.html');
+});
+app.get('/t8/h', function (req, res) {
+    res.sendFile(publicPath + '/t8/h.html');
+});
 
 
 
