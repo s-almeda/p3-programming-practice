@@ -52,35 +52,35 @@ app.get('/t3', function (req, res) {
 app.get('/t4', function (req, res) {
     res.sendFile(publicPath + '/t4.html');
 });
-app.get('/t5', function (req, res) {
-    res.sendFile(publicPath + '/t5.html');
-});
 app.get('/t6', function (req, res) {
     res.sendFile(publicPath + '/t6.html');
 });
-
-
-// -- Task 7 Navigation -- //
 app.get('/t7', function (req, res) {
-    res.sendFile(publicPath + '/t7/index.html');
+    res.sendFile(publicPath + '/t7.html');
 });
-app.get('/t7/a', function (req, res) {
-    res.sendFile(publicPath + '/t7/a.html');
+
+
+// -- Task 5 Navigation -- //
+app.get('/t5', function (req, res) {
+    res.sendFile(publicPath + '/t5/index.html');
 });
-app.get('/t7/b', function (req, res) {
-    res.sendFile(publicPath + '/t7/b.html');
+app.get('/t5/a', function (req, res) {
+    res.sendFile(publicPath + '/t5/a.html');
 });
-app.get('/t7/c', function (req, res) {
-    res.sendFile(publicPath + '/t7/c.html');
+app.get('/t5/b', function (req, res) {
+    res.sendFile(publicPath + '/t5/b.html');
 });
-app.get('/t7/d', function (req, res) {
-    res.sendFile(publicPath + '/t7/d.html');
+app.get('/t5/c', function (req, res) {
+    res.sendFile(publicPath + '/t5/c.html');
 });
-app.get('/t7/e', function (req, res) {
-    res.sendFile(publicPath + '/t7/e.html');
+app.get('/t5/d', function (req, res) {
+    res.sendFile(publicPath + '/t5/d.html');
 });
-app.get('/t7/f', function (req, res) {
-    res.sendFile(publicPath + '/t7/f.html');
+app.get('/t5/e', function (req, res) {
+    res.sendFile(publicPath + '/t5/e.html');
+});
+app.get('/t5/f', function (req, res) {
+    res.sendFile(publicPath + '/t5/f.html');
 });
 
 // -- Task 8 Navigation -- //
